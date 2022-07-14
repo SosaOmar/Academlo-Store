@@ -172,14 +172,14 @@ img {
     margin-bottom: 0.5em;
 }
 
-.comproEsto p{
- font-size: 17px;
-}
-
 .contenedor_cosas {
     display: flex;
     gap: 0.5em;
     flex-direction: column;
+}
+
+.contenedor_cosas p{
+    font-size: 17px;
 }
 
 .cosas {
@@ -187,7 +187,6 @@ img {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
 }
-
 
 /***************************************/
 .container_principal {
@@ -484,7 +483,7 @@ img {
     align-items: center;
     position: absolute;
     right: 10px;
-    top: 185px;
+    top: 150px;
 }
 
 .agregar:hover {
@@ -496,7 +495,6 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 20px;
 }
 
 .precio {
