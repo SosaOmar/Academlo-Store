@@ -239,7 +239,6 @@ function eliminarProducto() {
         if (event.target.classList.contains("basura")) {
             const id = event.target.parentElement.id;
             delete order[id]
-            printCompras()
         }
     })
 
