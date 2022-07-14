@@ -138,7 +138,7 @@ function agregarAlBolso() {
                 order[ropaActual.id].amount = 1
             }
 
-            aumento.textContent = Object.entries(order).length;
+            aumento.textContent = Object.values(order).reduce((acumulador, { amount }) => acumulador + amount, 0)
         };
     })
 }
