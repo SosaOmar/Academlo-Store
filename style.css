@@ -170,7 +170,10 @@ img {
     border-radius: 1em;
     align-items: center;
     margin-bottom: 0.5em;
-    font-size: 10px;
+}
+
+.comproEsto p{
+ font-size: 17px;
 }
 
 .contenedor_cosas {
@@ -184,6 +187,7 @@ img {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
 }
+
 
 /***************************************/
 .container_principal {
@@ -492,6 +496,7 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 20px;
 }
 
 .precio {
